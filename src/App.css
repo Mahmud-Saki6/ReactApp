@@ -37,7 +37,6 @@
   }
 }
 
-
 /* for header section */
 
 /* Overall header styling */
@@ -73,7 +72,6 @@
 }
 
 .logo {
- 
   width: 50px;
   max-width: 100%;
   object-fit: contain;
@@ -99,7 +97,7 @@
 /* hero section start */
 
 .hero-banner {
-  background-image: url('/public/hero.png'); /* from /public folder */
+  /* background-image: url('/public/hero.png');  */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -160,7 +158,6 @@
   margin-top: 60px;
 }
 
-
 /* footer */
 .footer {
   background-color: #1b3b5c;
@@ -176,8 +173,7 @@
   gap: 20px;
 }
 
-
-.footer-links a{
+.footer-links a {
   color: white;
   text-decoration: none;
   font-weight: 500;
@@ -234,21 +230,18 @@
   background-color: #0056b3;
 }
 
-
 /* about end */
 
 /* contact us start */
 
 .contact-banner {
-  background-image: url('/public/contact.jpg'); /* Must be inside /public */
+  /* background-image: url("/public/contact.jpg");  */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding: 80px 20px;
   position: relative;
   color: white;
-   
-
 }
 
 .contact-overlay {
@@ -257,7 +250,6 @@
   margin: 0 auto;
   padding: 40px;
   border-radius: 10px;
-  
 }
 
 .contact-form h2 {
@@ -295,6 +287,5 @@
 .contact-button:hover {
   background-color: #0056b3;
 }
-
 
 /* contact us end */
